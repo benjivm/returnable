@@ -24,4 +24,4 @@ class Customer extends Model
     protected $returnable = ['Name', 'ConNum', 'Address', 'City', 'State', 'Zip', 'PhoneNum', 'EMailAddress', 'Country', 'Url'];
 ```
 
-Only the specified columns will be returned when the Model is loaded.
+Only the specified columns will be returned when the Model is loaded unless you have manually specified the columns in the instantiation, e.g. `Customer::select('MyColumn as aliased_column')`.

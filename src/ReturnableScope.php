@@ -19,7 +19,9 @@ class ReturnableScope implements Scope
         $query = $builder->getQuery();
         $returnable = $model->getReturnable();
 
-        $query->columns = $returnable;
+        if (is_null($builder->getQuery()->columns)) {
+            $query->columns = $returnable;
+        }
     }
 
     /**
