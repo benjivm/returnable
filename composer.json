@@ -1,0 +1,29 @@
+{
+  "name": "gmask/returnable",
+  "description": "Eloquent model column select trait.",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "database",
+    "model",
+    "returnable",
+    "select"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Miller",
+      "email": "bvmiller@mail.sfsu.edu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/database": "4.2.x|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gmask\\Returnable\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
