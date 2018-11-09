@@ -1,5 +1,5 @@
 {
-  "name": "gmask/returnable",
+  "name": "benjivm/returnable",
   "description": "Eloquent model column select trait.",
   "keywords": [
     "laravel",
