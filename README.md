@@ -5,7 +5,7 @@ This Laravel trait limits the columns an Eloquent model can return. As opposed t
 # Installation
 
 Use composer:
-`composer require gmask/returnable`
+`composer require benjivm/returnable`
 
 # Usage
 
