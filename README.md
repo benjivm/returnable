@@ -5,7 +5,7 @@ This Laravel trait limits the columns an Eloquent model can return. As opposed t
 # Installation
 
 Use composer:
-`composer require gmask/returnable`
+`composer require benjivm/returnable`
 
 # Usage
 
@@ -14,7 +14,7 @@ Add the trait to your model:
 ```
 namespace App\Models;
 
-use Gmask\Returnable\ReturnableTrait;
+use Benjivm\Returnable\ReturnableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model

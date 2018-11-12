@@ -1,5 +1,5 @@
 {
-  "name": "gmask/returnable",
+  "name": "benjivm/returnable",
   "description": "Eloquent model column select trait.",
   "keywords": [
     "laravel",
@@ -10,12 +10,10 @@
     "select"
   ],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Ben Miller",
-      "email": "bvmiller@mail.sfsu.edu"
-    }
-  ],
+  "authors": [{
+    "name": "Ben Miller",
+    "email": "bvmiller@mail.sfsu.edu"
+  }],
   "require": {
     "php": ">=5.4.0",
     "illuminate/database": "4.2.x|~5.0"

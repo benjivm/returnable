@@ -1,6 +1,6 @@
 <?php
 
-namespace Gmask\Returnable;
+namespace Benjivm\Returnable;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Scope;

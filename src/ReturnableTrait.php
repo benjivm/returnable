@@ -1,6 +1,6 @@
 <?php
 
-namespace Gmask\Returnable;
+namespace Benjivm\Returnable;
 
 trait ReturnableTrait
 {
