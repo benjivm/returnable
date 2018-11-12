@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Gmask\\Returnable\\": "src/"
+      "Benjivm\\Returnable\\": "src/"
     }
   },
   "minimum-stability": "stable"
